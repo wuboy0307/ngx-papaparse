@@ -3,7 +3,7 @@ import {PapaParseGlobalConfig} from './interfaces/papa-parse-global-config';
 import {PapaParseResult} from './interfaces/papa-parse-result';
 import {PapaParseConfig} from './interfaces/papa-parse-config';
 import {PapaUnparseConfig} from './interfaces/papa-unparse-config';
-import * as lib from 'papaparse/papaparse.min.js';
+import * as lib from 'papaparse';
 
 @Injectable()
 export class Papa {
